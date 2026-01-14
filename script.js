@@ -194,8 +194,8 @@ const productos = [
     document.getElementById("detalle-nombre").innerText=p.n;
     document.getElementById("detalle-precio").innerText=p.p;
     document.getElementById("detalle-desc").innerText=p.d;
-    document.getElemetByID(573011689081ntById("ordenar").href =
-      `https://wa.me/?text=Hola,%20quiero%20ordenar%20${p.n}`;
+    document.getElementById("ordenar").href =
+      `https://wa.me/57TU_NUMERO?text=Hola,%20quiero%20ordenar%20${p.n}`;
   }
   
   document.getElementById("cerrar").onclick=()=>{
@@ -210,5 +210,3 @@ const productos = [
   
   render(productos);
   
-
-
